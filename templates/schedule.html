@@ -1,0 +1,32 @@
+{% extends "layout_main.html" %}
+{% block body %}
+
+<div class="container">
+    <div class="section">
+        <h1 class="title">Weekly Workout Schedule</h1>
+        <table class="table is-fullwidth is-striped is-bordered">
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Recommended Workout Time</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for day, rec_time in week_schedule %}
+            <tr>
+                <td>{{ day }}</td>
+                <td>
+                    {% if rec_time %}
+                    {{ rec_time[0] }} : {{ rec_time[1] }}
+                    {% else %}
+                        No workout scheduled
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}

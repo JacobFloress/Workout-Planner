@@ -1,0 +1,59 @@
+{% extends "layout_main.html" %}
+{% block body %}
+
+<!-- Weekly workout schedule from M-F-->
+<section class="section">
+    <div class="container">
+        <h2 class="title has-text-centered">Your Weekly Workout Schedule</h2>
+        <table class="table is-fullwidth is-striped is-bordered">
+
+            <!-- Columns for each day to include what workout you did for that day and extra notes-->
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Workout Plan</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!-- Workout button that moves to whatever day your workout is on -->
+                    <td>Monday<form action="/current-workout" method="GET" style="display: inline;"><button class="button is-danger has-text-white is-small ml-2">Workout</button></form></td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endblock %}
