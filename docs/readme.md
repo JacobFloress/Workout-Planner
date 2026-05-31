@@ -1,4 +1,5 @@
-# Workout Planner | Academic Paper: [https://drive.google.com/file/d/1m3Qux7Yl-q0rHHuQJYrFCnRMjoaYAp-V/view?usp=sharing]
+# Workout Planner
+### Academic Paper: [https://drive.google.com/file/d/1m3Qux7Yl-q0rHHuQJYrFCnRMjoaYAp-V/view?usp=sharing]
 
 We created the Workout Planner to make it easier to achieve your fitness goals. The Workout Planner allows you to 
 create custom workout plans and schedules, track your progress, and display it all in a way that is easy to navigate 
